@@ -1,0 +1,30 @@
+{
+  "name": "jumper423/yii2-smooth-sort",
+  "description": "Yii2, плавная сортировка.",
+  "keywords": ["yii2", "smooth", "sort"],
+  "homepage": "https://github.com/jumper423/yii2-smooth-sort",
+  "type": "project",
+  "license": "Apache License 2.0",
+  "support": {
+    "issues": "https://github.com/jumper423/yii2-smooth-sort/issues?state=open",
+    "source": "https://github.com/jumper423/yii2-smooth-sort"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "bower-asset/smooth-sort": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "autoload": {
+    "psr-4": {"jumper423\\assets\\": ""}
+  }
+}
